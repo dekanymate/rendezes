@@ -16,7 +16,7 @@ public class Rendezes {
     public static void shellshort(tomb, n){
         int interval = n / 2;
         while (interval>0) {            
-            for (int i = 0; i < interval; i) {
+            for (int i = 0; i < interval; i++) {
                 int temp = tomb[i];
                 int j = i;
                 while (j >= interval && tomb[j - interval]> temp) {                    
